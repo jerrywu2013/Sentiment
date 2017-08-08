@@ -3,8 +3,8 @@
 #### word2vec
 http://qiita.com/HirofumiYashima/items/5c5376ba15cd988806e8
 ```
-svn checkout http://word2vec.googlecode.com/svn/trunk/
-cd trunk
+wget -c https://github.com/tmikolov/word2vec/archive/master.zip
+cd master
 make
 ./demo-word.sh
 ./demo-phrases.sh
